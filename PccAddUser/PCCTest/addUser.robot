@@ -1,7 +1,6 @@
 *** Settings ***
 Library        SeleniumLibrary
 Library         ImapLibrary2
-Suite Setup     open firefox
 Suite Teardown      close browser
 
 
@@ -19,8 +18,7 @@ ${passwordLink}
 *** Test Cases ***
 
 LoginTest
-    #open browser        ${url}      ${browser}
-    #maximize browser window
+	open firefox with proxy
 
     #automate privacy error page
     ${titleOfPage}=      get window titles
@@ -139,6 +137,18 @@ privacy error page
     click element       id:advancedButton
     click element       id:exceptionDialogButton
 
-open firefox
-    open browser        ${url}      ${browser}
-    maximize browser window
+open firefox without proxy
+    ${profile}=   Evaluate   sys.modules['selenium.webdriver'].FirefoxProfile()  sys
+    Create WebDriver   Firefox   firefox_profile=${profile}
+	maximize browser window
+	Go To    ${url}
+
+open firefox with proxy
+	${profile}=   Evaluate   sys.modules['selenium.webdriver'].FirefoxProfile()  sys
+	Call Method   ${profile}   set_preference   network.proxy.socks   127.0.0.1
+	Call Method   ${profile}   set_preference   network.proxy.socks_port  ${9000}
+	Call Method   ${profile}   set_preference   network.proxy.socks_remote_dns  ${True}
+	Call Method   ${profile}   set_preference   network.proxy.type   ${1}
+	Create WebDriver   Firefox   firefox_profile=${profile}
+	maximize browser window
+	Go To    ${url}
