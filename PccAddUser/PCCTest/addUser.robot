@@ -7,8 +7,8 @@ Suite Teardown      close browser
 *** Variables ***
 ${url}      https://172.17.2.242:9999/gui/login
 ${browser}      firefox
-${mailId}       anurag.jain@calsoftinc.com
-${mailPass}     @19N*rEq
+${mailId}       <mail id>
+${mailPass}     <mail password>
 ${pccNotificationMailId}        pcc_notifications@platinasystems.com
 ${newUserPass}      calsoft
 ${adminPass}      admin
@@ -45,15 +45,17 @@ AddUser
     input text    xpath://*[@class="modal-body"]//input[@name="username"]      ${mailId}
 
     #select tenant
-    click element       xpath://*[@class="form-group"][4]/*[@class="css-10nd86i"]
-    Sleep  2s
-    Press Keys      None       ENTER
+    #click element       xpath://*[@class="form-group"][4]/*[@class="css-10nd86i"]
+    #click element       xpath://*[contains(text(),'tenant6')]
+    #Sleep  2s
+    #Press Keys      None       ENTER
     Sleep  2s
 
     #select user role
     click element       xpath://*[@class="form-group"][5]/*[@class="css-10nd86i"]
-    Sleep  2s
-    Press Keys      None       ENTER
+    click element       xpath://*[contains(text(),'ADMIN (tenant6)')]
+    #Sleep  2s
+    #Press Keys      None       ENTER
     Sleep  2s
 
     Wait Until Element Is Visible       xpath://*[@class="create-button btn btn-primary"]

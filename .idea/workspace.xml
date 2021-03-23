@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a108a866-96b8-4f2f-a1a5-11d734c732ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PccAddUser/FinalSuite/PccUser.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PccAddUser/PCCTest/addProxy.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PccAddUser/PCCTest/addRoles.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PccAddUser/PCCTest/openmail.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PccAddUser/PCCTest/aU.robot" beforeDir="false" afterPath="$PROJECT_DIR$/PccAddUser/PCCTest/CreateTenants.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PccAddUser/PCCTest/addUser.robot" beforeDir="false" afterPath="$PROJECT_DIR$/PccAddUser/PCCTest/addUser.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PccAddUser/PCCTest/addUserHeadless.robot" beforeDir="false" afterPath="$PROJECT_DIR$/PccAddUser/PCCTest/addUserHeadless.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PccAddUser/PCCTest/login.robot" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Robot Test Suite" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1q6kuuwYKr6T5D5T5fP9qpREsd0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PccAddUser/PCCTest" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anurag.jain\Documents\GitHub\PCCAddUser\PccAddUser\PCCTest" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a108a866-96b8-4f2f-a1a5-11d734c732ae" name="Default Changelist" comment="" />
+      <created>1616407690986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616407690986</updated>
+      <workItem from="1616407699072" duration="7379000" />
+      <workItem from="1616417800624" duration="7400000" />
+      <workItem from="1616435920748" duration="1773000" />
+      <workItem from="1616470877407" duration="23976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

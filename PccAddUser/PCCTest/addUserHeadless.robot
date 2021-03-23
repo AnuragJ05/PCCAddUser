@@ -8,8 +8,8 @@ Suite Teardown      close browser
 *** Variables ***
 ${url}      https://172.17.2.242:9999/gui/login
 ${browser}      headlessfirefox
-${mailId}       anurag.jain@calsoftinc.com
-${mailPass}     @19N*rEq
+${mailId}       <mail id>
+${mailPass}     <mail password>
 ${pccNotificationMailId}        pcc_notifications@platinasystems.com
 ${newUserPass}      calsoft
 ${adminPass}      admin
